@@ -46,7 +46,7 @@ jupyter notebook
 | File                            | Descrizione                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
 | `main.ipynb`                   | Coordinamento dei passaggi principali                                       |
-| `preprocessing.ipynb`         | Pulizia, imputazione, scalatura, feature engineering                        |
+| `preprocessing.ipynb`         | Pulizia, imputazione, feature engineering                        |
 | `models.ipynb`                | Setup dei modelli (RandomForest, LightGBM)                                  |
 | `metrics.ipynb`               | Calcolo delle metriche: F1, precision, recall, confusion matrix             |
 | `rf_random_search_nested_cv.ipynb` | Nested CV con Random Search su Random Forest                          |
