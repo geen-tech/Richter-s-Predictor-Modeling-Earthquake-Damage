@@ -1,6 +1,6 @@
 # Richter-s-Predictor-Modeling-Earthquake-Damage
 
-![Ranking](./Schermata%202025-07-23%20alle%2006.30.53.png)
+![DRIVENDATA Result](./Ranking.png)
 
 Questo progetto affronta il problema della classificazione del grado di danno agli edifici a seguito di un terremoto, basandosi su dati strutturali, geologici e sociali.
 
