@@ -48,10 +48,21 @@ jupyter notebook
 | `main.ipynb`                   | Coordinamento dei passaggi principali                                       |
 | `preprocessing.ipynb`         | Pulizia, imputazione, feature engineering                        |
 | `models.ipynb`                | Setup dei modelli (RandomForest, LightGBM)                                  |
-| `metrics.ipynb`               | Calcolo delle metriche: F1, precision, recall, confusion matrix             |
+| `metrics.ipynb`               | Calcolo delle metriche: F1, precision, recall,g-mean, confusion matrix             |
 | `rf_random_search_nested_cv.ipynb` | Nested CV con Random Search su Random Forest                          |
 | `lgbm_random_search_nested_cv.ipynb` | Nested CV con Optuna su LightGBM                                     |
 
+---
+
+## Preprocessing
+
+- Conversione delle colonne categoriche in tipo `category`.
+- **Controllo della presenza di valori nulli**: i dati sono stati verificati e **non sono stati riscontrati valori nulli**.
+- Clipping degli outlier.
+- Aggiunta della feature `missing_count`.
+- Encoding tramite `OneHotEncoder`.
+- **Nota**: nessuna scalatura è stata applicata alle feature numeriche, in quanto non necessaria per modelli ad albero.
+  
 ---
 
 ## Nested Cross-Validation (5×3)
